@@ -1,0 +1,317 @@
+@import url(https://db.onlinewebfonts.com/c/befa68745153478cdffc812d1bddc9b2?family=GabrielaStencil-Black);
+
+body{
+    font-family:"Roboto condensed";
+    font-size:1.5vw;
+    background-color: whitesmoke;
+}
+h1{
+    font-family: "GabrielaStencil-Black";
+}
+.head{
+    line-height: 40%;
+    text-align: center;
+    font-size:2vw;
+    color:white;
+    background-color: black;
+    height:16vh;
+    margin-top:-1%;
+    padding-top:1%;
+    margin-bottom:3%;
+}
+.description{
+    text-align: center;
+    line-height: 30%;
+    margin-bottom:4%;
+}
+.key-word{
+    color:#ae8a3e;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    opacity:0;
+    transition: opacity 2s ease-in;
+}
+  
+  .timeline-item {
+    width: 90vw;
+    max-width: 1300px;
+    margin: 5vw 0;
+  }
+.section1{
+    line-height: 1vw;
+    text-align: center;
+}
+  .timeline-title{
+    font-size:2.5vw;
+  }
+  .timeline-year {
+    font-size:2vw;
+  }
+
+.branch1{
+    width: 14vw;
+    margin-bottom:4%;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-left:28%;
+    line-height:1.8vw;
+}
+.img{
+    position:absolute;
+}
+.img1{
+    width:10vw;
+    margin-top:-15%;
+    margin-left:14%;
+    opacity:0;
+    transition: opacity 1s ease-in-out;
+}
+.img2{
+    width:16vw;
+    margin-top:-9%;
+    margin-left:8%;
+}
+.img3{
+    width:11vw;
+    margin-left:68%;
+    margin-top:-15%;
+}
+.img4{
+    width:12vw;
+    margin-left:49%;
+    margin-top:3%;
+
+}
+.img5{
+    width:9vw;
+    margin-left:62%;
+    margin-top:3%;
+
+}
+.img6{
+    width:18vw;
+    margin-top:-10%;
+    margin-left:6%;
+}
+.img7{
+    width:18vw;
+    margin-top:-17%;
+    margin-left:68%;
+}
+.img8{
+    width:19vw;
+    margin-top:-1%;
+    margin-left:36%;
+}
+.img9{
+    width:18vw;
+    margin-top:-8%;
+    margin-left:6%;
+}
+.img10{
+    width:18vw;
+    margin-top:-3%;
+    margin-left:68%;
+}
+.branch1-1{
+    width:24vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:-3.5%;
+    opacity:0;
+    transition: opacity 1s ease;
+}
+.branch1-2{
+    width:24vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:-5%;
+    margin-left:22.5%;
+    opacity:0;
+    transition: opacity 1s ease;
+}
+.branch1-3{
+    width:24vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:-8%;
+    opacity:0;
+    transition: opacity 1s ease;
+}
+/* branch2 */
+.right{
+    
+}
+.branch2{
+    width: 14vw;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-top:-32%;
+    margin-left:54.5%;
+    line-height:1.8vw;
+}
+.branch2-1{
+    width:24vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:-5.5%;
+    margin-left:70%;
+}
+.branch2-2{
+    width: 14vw;
+    margin-top:8%;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-left:54.5%;
+    line-height:1.8vw;
+    margin-bottom:3%;
+}
+/* branch3 */
+.branch3{
+    width: 14vw;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-top:-15%;
+    margin-left:54.5%;
+    line-height:1.8vw;
+}
+.branch3-1{
+    width:24vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:3%;
+}
+.branch3-2{
+    width:20vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:12%;
+    margin-left:68%;
+    margin-bottom:-8%;
+}
+.branch3-3{
+    width: 14vw;
+    margin-top:9%;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-left:28%;
+    line-height:1.8vw;
+}
+
+/* branch4 */
+.branch4{
+    width: 14vw;
+    margin-top:14%;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-left:28%;
+    line-height:1.8vw;
+}
+.branch4-1{
+    width:24vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:2%;
+    margin-left:2%;
+}
+.branch4-2{
+    width: 14vw;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-top:-27%;
+    margin-left:54.5%;
+    line-height:1.8vw;
+}
+.branch4-3{
+    width: 14vw;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-top:5%;
+    margin-left:54.5%;
+    line-height:1.8vw;
+}
+.para4{
+    margin-top:5%;
+    margin-bottom:10%;
+}
+
+/* branch5 */
+.branch5{
+    width: 14vw;
+    margin-top:23%;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-left:28%;
+    line-height:1.8vw;
+}
+.branch5-1{
+    width:20vw;
+    text-align: center;
+    padding:1vw;
+    line-height: 1.8vw;
+    margin-top:3%;
+    margin-left:20%;
+}
+.branch5-2{
+    width: 14vw;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-top:-20%;
+    margin-left:54.5%;
+    line-height:1.8vw;
+}
+.branch5-3{
+    width: 14vw;
+    background-color: black; /* Adjust background color */
+    color: white;
+    text-align: center;
+    padding:1vw;
+    margin-top:3%;
+    margin-left:54.5%;
+    line-height:1.8vw;
+    margin-bottom:10%;
+}
+
+.timeline-line {
+    position: absolute;
+    width: 0.1vw;
+    height: 345%; /* Adjust height of the line */
+    background-color: silver;
+    left: 50%; /* Center the line horizontally */
+    top: 52%;
+    transform: translateX(-50%); /* Center the line perfectly */
+    opacity:0.4;
+  }
